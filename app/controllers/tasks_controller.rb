@@ -1,5 +1,7 @@
 class TasksController < ApplicationController
   def index
+      title = "てすとおお"
+      @title = title
       @tasks = Task.all
   end
 
